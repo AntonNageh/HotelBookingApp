@@ -2,7 +2,7 @@
   "name": "bookinglap",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/AntonNageh/HotelBookingApp.github.io",
+  "homepage": "https://github.com/AntonNageh/HotelBookingApp",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
