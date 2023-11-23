@@ -18,6 +18,7 @@ function App() {
     <BrowserRouter>
     <Routes>
         <Route path="/" element={<Landingpage/>}/>
+        <Route path="/HotelBookingApp" element={<Landingpage/>}/>
         <Route path="/home" element={<Homepage/>}/>
         <Route path="/signup" element={<Signup/>}/>
         <Route path="/hotels" element={<List/>}/>

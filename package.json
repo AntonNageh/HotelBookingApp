@@ -9,9 +9,6 @@
     "deploy": "gh-pages -d dist",
     "build": "babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install-backend": "cd ./api && npm install",
-    "install-frontend": "cd  ./frontend/booking-lab && npm install",
-    "install": "npm run install && npm run install-frontend && npm run install-backend",
     "dev-backend": "cd ./api && npm run dev",
     "dev-frontend": "cd ./frontend/booking-lab && npm run dev",
     "dev": "concurrently \"npm run dev-frontend\" \"npm run dev-backend\""
